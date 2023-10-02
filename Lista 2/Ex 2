@@ -1,0 +1,17 @@
+//Faça um programa que lê dois números inteiros positivos a e b. Utilizando laços, o seu programa deve calcular e imprimir o valor a^b.
+
+#include <stdio.h>
+
+int main (){
+int a,b,i,acu=0;
+
+printf ("Digite um numero para ser base: ");
+scanf ("%d", &a);
+printf ("Digite um numero para ser o expoente: ");
+scanf ("%d", &b);
+
+for (i=1;i<=b;i++){
+acu=acu*a;
+}
+
+printf ("Resultado: %d", acu);
