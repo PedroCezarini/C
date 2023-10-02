@@ -1,0 +1,13 @@
+//Faça um programa que lê um número n e que compute e imprima a somatoria de 1 até N.
+
+#include <stdio.h>
+
+int main (){
+int i,n,somatoria=1;
+
+for (i=1;i<=;i++){
+somatoria=somatoria+somatoria;
+}
+
+printf ("Valor final: %d", somatoria);
+}
