@@ -1,0 +1,25 @@
+\* Faça um programa que imprima um menu de 4 pratos na tela e uma quinta opção para sair do programa. O programa deve imprimir o prato solicitado. O programa deve terminar quando for 
+escolhido a quinta opção.*\
+
+#include <stdio.h>
+
+int main (){
+int a;
+
+printf ("Opçao 1: Carne com batata");
+printf ("Opçao 2: Frango");
+printf ("Opçao 3: Salada");
+printf ("Opção 4: Peixe);
+printf ("Escolha uma opçao.");
+scanf ("%d", &a);
+
+if (a==1){
+printf ("Opçao 1: Carne com batata");
+} else if (a==2){
+printf ("Opçao 2: Frango");
+} else if (a==3) {
+printf ("Opçao 3: Salada");
+} else if (a==4) {
+printf ("Opção 4: Peixe);
+}
+}
